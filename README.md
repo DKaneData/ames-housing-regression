@@ -63,3 +63,7 @@ The notebooks should be read in the following order
 ## Conclusion
 
 -- Being sold during the financial crisis in 2008 did not have a significant impact on sales price, though some of this is limited by the data set we have only running from 2006 to 2010. After that initial exploratory analysis, most of the focus was on producing the best performing model for predicting price.
+
+Of all the models run, the model with the highest R2 and Cross Validation score was the ridge model that was run on all numeric data using polynomial features. That model has an R2 on the test data set of 0.920 and a cross validation score of 0.924, and a RMSE of $24,960.
+
+The model with the lowest RMSE was the model run on all numeric data and the 7 categorical variables. That has an RMSE of $24,634. The R2 on the test set for that model was 0.904 and the cross validation score was 0.886.
